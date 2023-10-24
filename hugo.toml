@@ -1,0 +1,16 @@
+baseURL = 'https://homelessnothopeless.org/'
+languageCode = 'en-us'
+title = 'Homeless Not Hopeless'
+theme = 'ananke'
+
+
+[languages]
+    [languages.en]
+        title = "Homeless Not Hopeless"
+        weight = 1
+        contentDir = "content/en"
+
+
+    [sitemap]
+        changefreq = "monthly"
+        filename = "sitemap.xml"
